@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import './App.css';
 
 const SkipSelector = () => {
   const [selectedSkip, setSelectedSkip] = useState(17935);
-  const [showDetails, setShowDetails] = useState(false);
+  
 
   // Skip data from the provided JSON
   const skips = [
